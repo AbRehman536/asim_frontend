@@ -1,0 +1,7 @@
+class OnBoarding{
+  final String title;
+  final String image;
+  final String desc;
+  OnBoarding({required this.title,
+    required this.image,required this.desc});
+}

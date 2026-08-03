@@ -1,5 +1,6 @@
 import 'package:asim_frontend/images.dart';
 import 'package:asim_frontend/listview.dart';
+import 'package:asim_frontend/pageView.dart';
 import 'package:asim_frontend/row_col.dart';
 import 'package:asim_frontend/text_fields.dart';
 import 'package:flutter/material.dart';
@@ -34,7 +35,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: ChatsScreen()
+      home: PageviewScreen()
     );
   }
 }
