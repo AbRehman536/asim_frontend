@@ -1,3 +1,6 @@
+import 'package:asim_frontend/gridView/gridView_count.dart';
+import 'package:asim_frontend/gridView/gridview_builder.dart';
+import 'package:asim_frontend/gridView/staggered_grid.dart';
 import 'package:asim_frontend/images.dart';
 import 'package:asim_frontend/listview.dart';
 import 'package:asim_frontend/pageView.dart';
@@ -35,7 +38,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: PageviewScreen()
+      home: StaggeredGridScreen()
     );
   }
 }
